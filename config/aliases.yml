@@ -1,0 +1,281 @@
+﻿itemaliases:
+    - itemname: Wood_Spade
+      name: Wood_Shovel
+      aliases: ["Wooden_Shovel"]
+    - itemname: Iron_Spade
+      name: Iron_Shovel
+    - itemname: Gold_Spade
+      name: Gold_Shovel
+      aliases: ["Golden_Shovel"]
+    - itemname: Diamond_Spade
+      name: Diamond_Shovel
+    - itemname: Sulphur
+      name: Gunpowder
+    - itemname: Pork
+      name: Porkchop
+    - itemname: Grilled_Pork
+      name: Cooked_Porkchop
+      aliases: ["Cooked_Pork", "Grilled_Porkchop"]
+    - itemname: Golden_Apple
+      aliases: ["Gold_Apple"]
+    - itemname: Piston_Base
+      name: Piston
+    - itemname: Piston_Sticky_Base
+      name: Sticky_Piston
+    - itemname: Ink_Sack
+      name: Dye
+      aliases: ["Ink_Sac"]
+    - itemname: Redstone_Torch_On
+      name: Redstone_Torch
+    - itemname: Flint_And_Steel
+      name: Lighter
+    - itemid: 83
+      name: Sugar_Cane
+      aliases: ["Reed", "Bamboo"]
+    - itemname: 31
+      name: Shrub
+      aliases: ["Long_Grass", "Tall_Grass"]
+    - itemname: Seeds
+      aliases: ["Seed", "Wheat_Seeds", "Wheat_Seed"]
+    - itemname: Step
+      aliases: ["Slab"]
+    - itemid: 103
+      name: Melon
+      aliases: ["Watermelon"]
+    - itemid: 361
+      name: Pumpkin_Seeds
+      aliases: ["PumpkinSeed"]
+    - itemid: 362
+      name: Melon_Seeds
+      aliases: ["Melon_Seed"]
+    - itemid: 368
+      name: Ender_Pearl
+      aliases: ["Pearl"]
+    - itemid: 360
+      name: Melon_Slice
+      aliases: ["Watermelon_Slice"]
+    - itemid: 365
+      name: Raw_Chicken
+    - itemid: 366
+      name: Cooked_Chicken
+      aliases: ["Chicken"]
+    - itemid: 367
+      name: Rotten_Flesh
+      aliases: ["Flesh"]
+    - itemid: 381
+      name: Eye_of_Ender
+      aliases: ["Ender_Eye"]
+    - itemid: 369
+      name: Blaze_Rod
+    - itemid: 377
+      name: Blaze_Powder
+    - itemid: 370
+      name: Ghast_Tear
+    - itemid: 374
+      name: Glass_Bottle
+      aliases: ["Bottle"]
+    - itemid: 382
+      name: Glistering_Melon
+      aliases: ["Golden_Melon", "Gold_Melon", "Glistering_Watermelon", "Golden_Watermelon", "Gold_Watermelon"]
+    - itemid: 371
+      name: Gold_Nugget
+    - itemid: 378
+      name: Magma_Cream
+    - itemid: 372
+      name: Nether_Wart
+      aliases: ["Nether_Mushroom", "Evil_Mushroom"]
+    - itemid: 375
+      name: Spider_Eye
+    - itemid: 376
+      name: Fermented_Spider_Eye
+    - itemid: 102
+      name: Glass_Pane
+      aliases: ["Glass_Window", "Window", "Pane", "Window_Pane"]
+    - itemid: 101
+      name: Iron_Bars
+      aliases: ["Bars"]
+    - itemid: 98
+      name: Stone_Brick
+      aliases: ["Stone_Bricks"]
+    - itemid: 109
+      name: Stone_Brick_Stairs
+    - itemid: 112
+      name: Nether_Brick
+      aliases: ["Nether_Bricks"]
+    - itemid: 113
+      name: Nether_Brick_Fence
+      alaises: ["Nether_Fence"]
+    - itemid: 114
+      name: Nether_Brick_Stairs
+      aliases: ["Nether_Stairs"]
+    - itemid: 106
+      name: Vines
+      aliases: ["Vine", "Ivy"]
+dataaliases:
+    - itemname: Coal
+      values:
+          - data: 0
+            name: Coal
+          - data: 1
+            name: Charcoal
+    - itemname: Wool
+      values:
+          - data: 0
+            name: white
+          - data: 1
+            name: orange
+          - data: 2
+            name: magenta
+          - data: 3
+            name: light_blue
+            aliases: ["sky_blue"]
+          - data: 4
+            name: yellow
+          - data: 5
+            name: lime
+          - data: 6
+            name: pink
+          - data: 7
+            name: gray
+          - data: 8
+            name: light_gray
+            aliases: ["silver", "light_grey"]
+          - data: 9
+            name: cyan
+          - data: 10
+            name: purple
+          - data: 11
+            name: blue
+          - data: 12
+            name: brown
+          - data: 13
+            name: green
+          - data: 14
+            name: red
+          - data: 15
+            name: black
+    - itemname: Ink_Sack
+      values:
+          - data: 15
+            name: white
+            aliases: ["bonemeal"]
+          - data: 14
+            name: orange
+          - data: 13
+            name: magenta
+          - data: 12
+            name: light_blue
+            aliases: ["sky_blue"]
+          - data: 11
+            name: yellow
+            aliases: ["dandelion", "dandelion_yellow"]
+          - data: 10
+            name: lime
+          - data: 9
+            name: pink
+          - data: 8
+            name: gray
+          - data: 7
+            name: light_gray
+            aliases: ["silver", "light_grey"]
+          - data: 6
+            name: cyan
+          - data: 5
+            name: purple
+          - data: 4
+            name: blue
+            aliases: ["lapis", "lapis_lazuli"]
+          - data: 3
+            name: brown
+            aliases: ["coca", "coca_beans", "chocolate"]
+          - data: 2
+            name: green
+            aliases: ["cactus", "cactus_green"]
+          - data: 1
+            name: red
+            aliases: ["rose", "rose_red"]
+          - data: 0
+            name: black
+            aliases: ["ink", "ink_sack", "ink_sac"]
+      #tall grass
+    - itemid: 31       
+      values:
+          # admins may want to remove this 0 data value, as these shrubs should instead be block #32 instances
+          - data: 0
+            name: dead
+            aliases: ["desert"]
+          - data: 1
+            name: normal
+            aliases: ["grass", "tall", "tall_grass"]
+          - data: 2
+            name: fern
+            aliases: ["bush", "living"]
+    - itemname: Sapling
+      values:
+          - data: 0
+            name: normal
+            aliases: ["tree"]
+          - data: 1
+            name: redwood
+            aliases: ["pine"]
+          - data: 2
+            name: "birch"
+    - itemname: Log
+      values:
+          - data: 0
+            name: normal
+            aliases: ["tree"]
+          - data: 1
+            name: redwood
+            aliases: ["pine"]
+          - data: 2
+            name: "birch"
+    - itemname: Step
+      values:
+          - data: 0
+            name: "sandstone"
+          - data: 1
+            name: "stone"
+          - data: 2
+            name: "wood"
+          - data: 3
+            name: "cobblestone"
+          - data: 4
+            name: "brick"
+          - data: 5
+            name: "stone_brick"
+            aliases: "stone_bricks"
+    - itemname: Double_Step
+      values:
+          - data: 0
+            name: "sandstone"
+          - data: 1
+            name: "stone"
+          - data: 2
+            name: "wood"
+          - data: 3
+            name: "cobblestone"
+          - data: 4
+            name: "brick"
+          - data: 5
+            name: "stone_brick"
+            aliases: "stone_bricks"
+    # glass bottle
+    - itemid: 374
+      values:
+          - data: 0
+            name: "empty"
+          - data: 1
+            name: "full"
+            aliases: ["filled"]
+    # stone brick
+    - itemid: 98
+      values:
+          - data: 0
+            name: "normal"
+          - data: 1
+            name: "mossy"
+            aliases: ["moss"]
+          - data: 2
+            name: "cracked"
+            aliases: ["crack"]
