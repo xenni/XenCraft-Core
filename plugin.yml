@@ -1,0 +1,37 @@
+name: XenCraftCore
+version: 1.0.1-alpha
+author: Xenni (xennitalonflame@gmail.com)
+
+main: me.xenni.plugins.xencraft.XenCraftCorePlugin
+
+permissions:
+    xencraft.admin.listplugins:
+        description: Allows you to obtain a list of all loaded XenCraft plugins.
+        default: op
+    xencraft.admin.resetplugin:
+        description: Allows you to reset a plugin's XenCraft data to defaults.
+        default: op
+    xencraft.admin.resetplayer:
+        descripton: Allows you to reset a player's XenCraft plugin data to defaults.
+        default: op
+    xencraft.admin.blockreset:
+        description: >
+            Prevents the resetting of your XenCraft plugin data.
+            You can still reset your own unrestricted, if you have the permission to do so.
+        default: op
+    xencraft.admin.bypassblockreset:
+        description: Allows you to bypass permission 'xencraft.admin.blockreset'.
+        
+commands:
+    xcplugins:
+        descripton: Lists all loaded XenCraft plugins.
+        permission: xencraft.admin.listplugins
+        usage: "usage: /<command>"
+    xcresetplugin:
+        description: Clears a plugin's XenCraft data. Use with extreme caution.
+        permission: xencraft.admin.resetplugin
+        usage: "usage: /<command> <Plugin>"
+    xcresetplayer:
+        description: Clears a player's XenCraft data. Use with caution.
+        permission: xencraft.admin.resetplayer
+        usage: "usage: /<command> <Player> (*|<Plugin>)"
